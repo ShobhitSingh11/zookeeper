@@ -51,6 +51,7 @@ public class WatchBench {
                 Thread.currentThread().sleep(1000);
             } catch (InterruptedException ex) { /* ignore */ }
         }
+        // erg
     }
 
     static long getMemoryUse() {
