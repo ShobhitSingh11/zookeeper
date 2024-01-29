@@ -33,6 +33,7 @@ package org.apache.jute;
  *
  */
 public interface Index {
+    // erdewdef
     boolean done();
     void incr();
 }

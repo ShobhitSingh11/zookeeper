@@ -45,6 +45,7 @@ public class LogServer extends ServletContextHandler {
 	addServlet(new ServletHolder(new FileLoader(src)), "/loadfile");
 	addServlet(new ServletHolder(new NumEvents(src)), "/info");
 	addServlet(new ServletHolder(new Throughput(src)), "/throughput");
+	// fers
     }
 
     public static void main(String[] args) {  
